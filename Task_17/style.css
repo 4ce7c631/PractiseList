@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Quicksand', sans-serif;
+	margin: 0px;
+}
+
+tr, td{
+  	border: 1px solid black;
+  	border-collapse: collapse;
+  	display: flex;
+  	justify-content: center;
+}
+
+td{
+	width: 150px;
+}
+
+td:first-of-type{
+	width: 100px;
+}
+
+.winner{
+	display: block;
+}

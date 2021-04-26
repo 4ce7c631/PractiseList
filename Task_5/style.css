@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway:300,500&display=swap');
+
+* {
+	box-sizing: border-box;
+	list-style: none;
+}
+
+body {
+	margin: 0;
+	font: 16px/27px 'Playfair Display', serif;
+}
+
+ul {
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+}
+
+li {
+	width: 100px;
+	height: 40px;
+}
+
+img {
+	width: 30px;
+}
+
+.circle{
+	width: 40px;
+	height: 40px;
+	margin-left: 30px;
+	margin-bottom: 5px;
+	border-radius: 50%;
+}

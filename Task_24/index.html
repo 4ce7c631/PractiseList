@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Homework</title>
+	<style>
+		.wrapper{
+			height: 1000px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.block{
+			width: 100px;
+			height: 100px;
+			background-color: black;
+		}
+		div #square{
+			width: 100px;
+			height: 100px;
+		}
+		div #rectangle{
+			width: 200px;
+			height: 100px;
+		}
+		div #circle{
+			border-radius: 50%;
+		}
+
+	</style>
+</head>
+<body>
+	<form>
+		<p><select size="4" multiple name="selectForm">
+			<option disabled>Выберите форму блока</option>
+			<option selected value="square" data_class>Квадрат</option>
+			<option value="rectangle">Прямоугольник</option>
+			<option value="circle">Круг</option>
+		</select></p>
+		<p>Введите цвет фигуры (color/rgb):<input></p>
+	</form>
+	<div class="wrapper">
+		<div class="block"></div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
